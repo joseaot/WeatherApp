@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node.js / JavaScript
 node_modules
 dist
 dist-ssr
@@ -25,3 +26,6 @@ dist-ssr
 
 # Ignore package lock file
 package-lock.json
+
+# Ignore .env file
+.env
