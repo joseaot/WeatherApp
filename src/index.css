@@ -18,10 +18,12 @@ header h1 {
 .dos-columnas {
   display: grid;
   gap: 4rem;
+  grid-template-columns: repeat(2, 1fr);
 }
-@media (min-width: 768px) {
+
+@media (max-width: 767px) {
   .dos-columnas {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 main {
