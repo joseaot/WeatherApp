@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import useClima from "../hooks/useClima";
-import paises from "./paises"; // Importa la lista de países desde el archivo paises.js
+import paises from "./Paises"; // Importa la lista de países desde el archivo paises.js
 
 const Formulario = () => {
     const [alerta, setAlerta] = useState('');
